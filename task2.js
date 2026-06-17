@@ -1,6 +1,6 @@
 let num1 = prompt("Enter Number");
 num1 = Number(num1);
-let oper = prompt("Enter Arthimatic Operator");
+let oper = prompt("Enter Arthimatic Operator i.e + ,-,*,/,%");
 let num2 = prompt("Enter Number");
 num2 = Number(num2);
 
@@ -21,5 +21,5 @@ switch (oper) {
       console.log("Remiander is ", num1 % num2);
       break;
     default:
-       console.log("Invaild")
+       console.log("Invaild Operator")
 }
